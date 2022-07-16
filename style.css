@@ -1,9 +1,17 @@
 #app {
+
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+padding-top: 0;
+  margin-top: 0;
   background-color: pink;
+  background-position: cover;
+  background-size: vh 100%;
+}
+
+html {
+  background-color: rgb(177, 177, 255)
 }
