@@ -13,5 +13,9 @@ padding-top: 0;
 }
 
 html {
-  background-color: rgb(177, 177, 255)
+  background-color: rgb(177, 177, 255);
+}
+
+div {
+height: 50rem;
 }
