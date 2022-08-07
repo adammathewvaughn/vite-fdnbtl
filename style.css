@@ -1,15 +1,16 @@
 #app {
-
+  align-items: center;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-padding-top: 0;
-  margin-top: 0;
-  background-color: pink;
+  color: #f5de13f3;
+  padding-top: .5rem;
+  margin-top: .75rem;
+  background-color: rgb(245, 117, 138);
   background-position: cover;
   background-size: vh 100%;
+  border-radius: 5%;
 }
 
 html {
@@ -17,5 +18,17 @@ html {
 }
 
 div {
-height: 50rem;
+  height: 25rem;
+}
+
+h1 {
+  margin-top:.5rem;
+}
+
+ul {
+display: flex;
+flex-direction: column;
+  align-items: center;
+  margin-top: .5rem;
+  text-decoration: underline;
 }
