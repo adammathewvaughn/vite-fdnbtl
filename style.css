@@ -1,46 +1,78 @@
 #app {
-  display: flex;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #f5de13f3;
-  padding-top: .5rem;
-  margin-top: .75rem;
-  background-color: rgb(245, 117, 138);
-  background-position: cover;
+  /* background-color: rgb(245, 117, 138); */
+  background-position: cover; 
   background-size: vh 100%;
-  border-radius: 5%;
-  justify-content: center;
+  height: 100%;
 }
 
 html {
+  /* background-size: vh 100%; */
   background-color: rgb(177, 177, 255);
 }
 
-.main {
-  height: 35rem;
-  justify-content: center;
+.header { 
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #f5de13f3;
+  background-color: rgb(245, 117, 138);
+  border: .2rem solid sandybrown;
+  border-radius: 2rem;
+  height: 10rem;
+  margin:0;
+  padding:0;
+
 }
 
-h1 {
-  margin-top:.5rem;
+.main { 
+  border-radius: 5%;
+  background-color: rgb(177, 255, 200);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  /* padding:1rem; */
+
+  align-items: center;
 }
 
 .post {
+  /* padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 5%; */
+  height: 10%;  
+  width: 15%;
+  margin-bottom:1rem;
   justify-content: center;
-
-  border-radius: 5%;
-  height: 5rem;  
-  width: 15rem;
-    background-color: aliceblue;
 }
+
 
 .comments {
-  justify-content: center;
-
-  border-radius: 5%;
-  height: 10rem;
-  width: 25rem;
+  padding-right: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+ flex-direction: column;
+ border: .2rem solid burlywood;
+ border-radius: 5%;
+  height: 40%;
+  width: 30%;
     background-color: aliceblue;
 }
+
+ span {
+   min-height:90rem ;
+   min-width: 20rem;
+  background-color: darkcyan;
+ }
+
+ h4 {
+   
+   align-items: center;
+   margin-bottom: .5rem;
+ }
