@@ -1,30 +1,79 @@
+
 #app {
-
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-padding-top: 0;
-  margin-top: 0;
-  background-color: pink;
-  background-position: cover;
+  color: #f5de13f3;
+  /* background-color: rgb(245, 117, 138); */
+  background-position: cover; 
   background-size: vh 100%;
-}
-#app2 {
-
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-padding-top: 0;
-  margin-top: 0;
-  background-color: rgb(193, 192, 255);
-  background-position: cover;
-  background-size: vh 100%;
+  height: 100%;
 }
 
 html {
-  background-color: rgb(177, 177, 255)
+  /* background-size: vh 100%; */
+  background-color: rgb(177, 177, 255);
 }
+
+.header { 
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #f5de13f3;
+  background-color: rgb(245, 117, 138);
+  border: .2rem solid sandybrown;
+  border-radius: 2rem;
+  height: 10rem;
+  margin:0;
+  padding:0;
+
+}
+
+.main { 
+  border-radius: 5%;
+  background-color: rgb(177, 255, 200);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  /* padding:1rem; */
+
+  align-items: center;
+}
+
+.post {
+  /* padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 5%; */
+  height: 10%;  
+  width: 15%;
+  margin-bottom:1rem;
+  justify-content: center;
+}
+
+
+.comments {
+  padding-right: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+ flex-direction: column;
+ border: .2rem solid burlywood;
+ border-radius: 5%;
+  height: 40%;
+  width: 30%;
+    background-color: aliceblue;
+}
+
+ span {
+   min-height:90rem ;
+   min-width: 20rem;
+  background-color: darkcyan;
+ }
+
+ h4 {
+   
+   align-items: center;
+   margin-bottom: .5rem;
+ }
