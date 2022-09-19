@@ -11,6 +11,19 @@ padding-top: 0;
   background-position: cover;
   background-size: vh 100%;
 }
+#app2 {
+
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+padding-top: 0;
+  margin-top: 0;
+  background-color: rgb(193, 192, 255);
+  background-position: cover;
+  background-size: vh 100%;
+}
 
 html {
   background-color: rgb(177, 177, 255)
